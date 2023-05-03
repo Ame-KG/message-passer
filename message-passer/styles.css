@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+body, html {
+	background: rgb(36, 36, 89);
+	display: grid;
+	height: 100%;
+	place-items: center;
+}
+
+h4 {
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+	text-transform: capitalize;
+}
+
+.container {
+	background: rgb(255, 165, 147);
+	min-width: 300px;
+	height: 45vw;
+	max-height: 300px;
+	width: 60vw;
+	padding: 25px 30px;
+	text-align: center;
+	box-shadow: 5px 5px 20px black;
+
+}
+
+form input {
+	margin: 10px 0px;
+	outline: none;
+	border: 1px solid rgb(36, 36, 89);
+}
+
+.msg-box {
+	width: 30vw;
+	min-height: 20px;
+	height: 2vw;
+	font-size: 1.2rem;
+}
+
+.btn {
+	background: wheat;
+	border: 1px solid;
+	border-color: black;
+	border-radius: 10%;
+	width: 100px;
+	height: 40px;
+	margin: 5px 0px;
+	color: black;
+
+}
+
+.btn:hover {
+	background: moccasin;
+	cursor: pointer;
+	color: rgb(10, 100, 1);
+}
+
+.btn:active {
+	opacity: 0.5;
+	transition: all 0.1s ease;
+}
+
+.msg {
+	color: rgb(10, 100, 1);
+
+}
+
+.feedback {
+	background: rgb(100, 10, 1);
+	color: wheat;
+	margin: 5px 0px;
+	display: none;
+}
+
+.show{
+	display: block;
+}
